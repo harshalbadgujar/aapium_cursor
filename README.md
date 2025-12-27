@@ -6,15 +6,7 @@ Automated UI tests for the BitBar Sample App using **Appium + Java + TestNG + Ex
 
 ## 🎬 Demo
 
-https://github.com/user-attachments/assets/REPLACE_WITH_YOUR_VIDEO_URL
-
-<!-- 
-TO ADD YOUR VIDEO:
-1. Push repo to GitHub first
-2. Go to Issues → New Issue
-3. Drag & drop demo.mp4 (from repo root) into comment box
-4. Copy the generated URL and replace the placeholder above
--->
+https://github.com/user-attachments/assets/d4f7589c-e374-497f-a046-71f1b7b79962
 
 ---
 
