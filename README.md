@@ -4,7 +4,23 @@ Automated UI tests for the BitBar Sample App using **Appium + Java + TestNG + Ex
 
 ---
 
-## Project Structure
+## 🎬 Demo
+
+https://github.com/user-attachments/assets/YOUR_VIDEO_ID_HERE
+
+<!-- 
+HOW TO ADD YOUR VIDEO:
+1. Go to your GitHub repo → Issues → New Issue
+2. Drag and drop your bitbar.mov video into the comment box
+3. Wait for upload to complete - GitHub will generate a URL like:
+   https://github.com/user-attachments/assets/abc123-def456...
+4. Copy that URL and replace the placeholder above
+5. You can close the issue without submitting
+-->
+
+---
+
+## 📁 Project Structure
 
 ```
 ├── pom.xml                          # Maven dependencies & build config
@@ -42,7 +58,7 @@ Automated UI tests for the BitBar Sample App using **Appium + Java + TestNG + Ex
 
 ---
 
-## Prerequisites
+## 🛠️ Prerequisites
 
 1. **Java JDK 11+** installed
 2. **Maven** installed
@@ -52,7 +68,7 @@ Automated UI tests for the BitBar Sample App using **Appium + Java + TestNG + Ex
 
 ---
 
-## Configuration
+## ⚙️ Configuration
 
 Edit `src/main/java/com/bitbar/tests/config/AppConfig.java` if needed:
 
@@ -65,7 +81,7 @@ APP_ACTIVITY = ".MainActivity"
 
 ---
 
-## How to Run Tests
+## 🚀 How to Run Tests
 
 ### Option 1: Using Maven (Recommended)
 ```bash
@@ -79,7 +95,7 @@ mvn test -DsuiteXmlFile=testng.xml
 
 ---
 
-## Test Report
+## 📊 Test Report
 
 After test execution, the HTML report is generated at:
 ```
@@ -90,7 +106,7 @@ Open this file in a browser to view detailed test results.
 
 ---
 
-## Test Coverage
+## ✅ Test Coverage
 
 | Test Case | Description |
 |-----------|-------------|
@@ -109,7 +125,7 @@ Open this file in a browser to view detailed test results.
 
 ---
 
-## App Under Test
+## 📱 App Under Test
 
 **BitBar Sample App** with:
 - App title: "BitBar Sample App"
@@ -118,7 +134,7 @@ Open this file in a browser to view detailed test results.
 
 ---
 
-## Troubleshooting
+## 🔧 Troubleshooting
 
 1. **Appium not connecting**: Ensure Appium server is running at configured URL
 2. **App not found**: Verify app package and activity names
