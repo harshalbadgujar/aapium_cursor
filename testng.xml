@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BitBar Sample App Test Suite" verbose="1">
+    
+    <listeners>
+        <listener class-name="com.bitbar.tests.listeners.ExtentReportListener"/>
+    </listeners>
+    
+    <!-- 
+        SINGLE FLOW TEST EXECUTION:
+        ═══════════════════════════════════════════════════════════════
+        App Opens → Home Page Tests → Click Biometric → Biometric Auth Tests → App Closes
+        ═══════════════════════════════════════════════════════════════
+        
+        Both test classes run in ONE session without closing/reopening the app
+    -->
+    
+    <test name="BitBar App Complete Flow Test">
+        <classes>
+            <!-- First: Home Page Tests (Screen 1) -->
+            <class name="com.bitbar.tests.tests.HomePageTest"/>
+            
+            <!-- Second: Biometric Auth Page Tests (Screen 2) - navigates from Home -->
+            <class name="com.bitbar.tests.tests.BiometricAuthPageTest"/>
+        </classes>
+    </test>
+    
+</suite>
+
